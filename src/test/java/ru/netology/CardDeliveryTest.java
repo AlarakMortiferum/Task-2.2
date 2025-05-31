@@ -15,9 +15,7 @@ public class CardDeliveryTest {
 
     @BeforeAll
     static void setup() {
-        Configuration.headless = true; // запускать браузер без GUI
-        Configuration.browserSize = "1280x800"; // размер окна
-        Configuration.timeout = 5000; // таймаут ожидания по умолчанию
+        Configuration.browserSize = "1280x800";
     }
 
     @Test

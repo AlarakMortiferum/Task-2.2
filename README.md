@@ -1,1 +1,1 @@
-![Java CI](https://github.com/AlarakMortiferum/Task-2.2/actions/workflows/gradle.yml/badge.svg)
+![Build](https://github.com/AlarakMortiferum/Task-2.2/actions/workflows/ci.yml/badge.svg)
