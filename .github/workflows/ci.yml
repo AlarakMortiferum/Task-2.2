@@ -23,7 +23,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run tested app
-        run: java -jar artifacts/app-ibank-build-for-testers.jar &
+        run: java -jar artifacts/app-card-delivery.jar &
 
       - name: Run tests
         run: ./gradlew test -Dselenide.headless=true --info
