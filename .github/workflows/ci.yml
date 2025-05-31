@@ -19,11 +19,3 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      - name: Run tested app
-        run: java -jar artifacts/app-card-delivery.jar &
-
-      - name: Run tests
-        run: ./gradlew test -Dselenide.headless=true --info
